@@ -4,7 +4,8 @@
   "description": "Shareable ESLint config (eslint:recommended) for offline/internal use.",
   "main": "index.cjs",
   "files": [
-    "index.cjs"
+    "index.cjs",
+    "README.md"
   ],
   "scripts": {
     "lint": "eslint .",
