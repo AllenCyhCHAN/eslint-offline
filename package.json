@@ -1,7 +1,11 @@
 {
-  "name": "eslint-offline",
+  "name": "eslint-config-offline",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Shareable ESLint config (eslint:recommended) for offline/internal use.",
+  "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "eslint": "^8.57.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
   }
 }
